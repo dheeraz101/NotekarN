@@ -1,8 +1,8 @@
     {
         "enabled": true,
-        "id": "release-3-0-6",
-        "title": "NoteKar Update",
-        "body": "A new NoteKar update is ready with safer deletes and improved exports.",
+        "id": "1",
+        "title": "NoteKar Welcomes",
+        "body": "Thanks For Trying NoteKar! We hope you enjoy using it.",
         "url": "./",
         "channels": ["stable", "beta"],
         "maxShows": 1,
