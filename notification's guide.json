@@ -1,0 +1,73 @@
+{
+  "_comment": "This is a valid JSON example for NoteKar remote notifications. JSON does not support // comments, so documentation is stored in _docs fields. Your live notifications.json can keep or remove these _docs fields; NoteKar ignores unknown fields.",
+  "_docs": {
+    "enabled": "Boolean. true means this notice can be shown. false disables it without deleting the file.",
+    "id": "Required unique string. Change this when you want users to see a new notification. Example: release-3-0-6 or maintenance-2026-06-01.",
+    "title": "Notification title shown by the operating system.",
+    "body": "Notification message shown below the title.",
+    "url": "Where to open/focus when the user taps the notification. Use ./ for app home, ./?action=note for note popup, or a full URL.",
+    "channels": "Array of update channels allowed to receive this notice. Use [\"stable\"], [\"beta\"], or [\"stable\", \"beta\"].",
+    "maxShows": "Maximum number of times this notice may be shown on one device/browser for this id.",
+    "cooldownHours": "Minimum hours between repeats for this id. Use 0 for immediate retesting.",
+    "showAfter": "Optional ISO date/time. Notice will not show before this time.",
+    "showUntil": "Optional ISO date/time. Notice will not show after this time.",
+    "icon": "Optional notification icon path or full URL. Recommended: ./icon-192.png.",
+    "badge": "Optional Android notification badge path. Recommended: ./icon-maskable-192.png.",
+    "examples": {
+      "showOnceToEveryone": {
+        "enabled": true,
+        "id": "release-3-0-6",
+        "title": "NoteKar Update",
+        "body": "A new NoteKar update is ready with safer deletes and improved exports.",
+        "url": "./",
+        "channels": ["stable", "beta"],
+        "maxShows": 1,
+        "cooldownHours": 24
+      },
+      "betaOnlyNotice": {
+        "enabled": true,
+        "id": "beta-test-001",
+        "title": "Beta Update",
+        "body": "A new beta build is ready for testing.",
+        "url": "./",
+        "channels": ["beta"],
+        "maxShows": 2,
+        "cooldownHours": 6
+      },
+      "scheduledNotice": {
+        "enabled": true,
+        "id": "scheduled-maintenance-2026-06-01",
+        "title": "Planned Maintenance",
+        "body": "Some update checks may be slower during maintenance.",
+        "url": "./",
+        "channels": ["stable", "beta"],
+        "maxShows": 1,
+        "cooldownHours": 24,
+        "showAfter": "2026-06-01T09:00:00+05:30",
+        "showUntil": "2026-06-01T18:00:00+05:30"
+      },
+      "testingMode": {
+        "enabled": true,
+        "id": "test-change-this-id-each-time",
+        "title": "Test Notice",
+        "body": "This is a live notification test.",
+        "url": "./",
+        "channels": ["stable", "beta"],
+        "maxShows": 99,
+        "cooldownHours": 0
+      }
+    }
+  },
+  "enabled": true,
+  "id": "release-3-0-6",
+  "title": "NoteKar Update",
+  "body": "A new NoteKar update is ready with safer deletes and improved exports.",
+  "url": "./",
+  "channels": ["stable", "beta"],
+  "maxShows": 1,
+  "cooldownHours": 24,
+  "showAfter": "2026-05-25T00:00:00+05:30",
+  "showUntil": "2026-06-25T23:59:59+05:30",
+  "icon": "./icon-192.png",
+  "badge": "./icon-maskable-192.png"
+}

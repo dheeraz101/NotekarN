@@ -1,0 +1,10 @@
+    {
+        "enabled": true,
+        "id": "release-3-0-6",
+        "title": "NoteKar Update",
+        "body": "A new NoteKar update is ready with safer deletes and improved exports.",
+        "url": "./",
+        "channels": ["stable", "beta"],
+        "maxShows": 1,
+        "cooldownHours": 24
+    }
