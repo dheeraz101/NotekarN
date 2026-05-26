@@ -1,10 +1,14 @@
-    {
-        "enabled": true,
-        "id": "2",
-        "title": "NoteKar Update",
-        "body": "Checkout our brand new Icon designed specifically for NoteKar!",
-        "url": "./",
-        "channels": ["stable", "beta"],
-        "maxShows": 1,
-        "cooldownHours": 24
+﻿{
+      "enabled": true,
+      "id": "whats-new-1-1-0",
+      "title": "What's New in NoteKar",
+      "body": "See the latest improvements inside the app.",
+      "url": "./?action=whats-new",
+      "action": "whats-new",
+      "channels": ["stable", "beta"],
+      "platforms": ["pwa", "android"],
+      "maxShows": 1,
+      "cooldownHours": 24,
+      "icon": "./icon-192.png",
+      "badge": "./icon-maskable-192.png"
     }
