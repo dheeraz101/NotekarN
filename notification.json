@@ -1,8 +1,8 @@
     {
         "enabled": true,
-        "id": "1",
-        "title": "NoteKar Welcomes",
-        "body": "Thanks For Trying NoteKar! We hope you enjoy using it.",
+        "id": "2",
+        "title": "NoteKar Update",
+        "body": "Checkout our brand new Icon designed specifically for NoteKar!",
         "url": "./",
         "channels": ["stable", "beta"],
         "maxShows": 1,
