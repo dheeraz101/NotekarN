@@ -1,14 +1,18 @@
 ﻿{
-      "enabled": true,
-      "id": "whats-new-1-1-0",
-      "title": "What's New in NoteKar",
-      "body": "See the latest improvements inside the app.",
-      "url": "./?action=whats-new",
-      "action": "whats-new",
-      "channels": ["stable", "beta"],
-      "platforms": ["pwa", "android"],
-      "maxShows": 1,
-      "cooldownHours": 24,
-      "icon": "./icon-192.png",
-      "badge": "./icon-maskable-192.png"
-    }
+    "enabled":  true,
+    "id":  "apk-release-4-0-4",
+    "title":  "NoteKar APK Update",
+    "body":  "NoteKar 4.0.4 is ready with newer features and improvements.",
+    "url":  "https://github.com/dheeraz101/Notekar/releases",
+    "action":  "releases",
+    "channels":  [
+                     "stable",
+                     "beta"
+                 ],
+    "platforms":  [
+                      "pwa",
+                      "android"
+                  ],
+    "maxShows":  1,
+    "cooldownHours":  24
+}
