@@ -1,7 +1,7 @@
 {
   "_comment": "Full-control guide for NoteKar remote notifications hosted at https://raw.githubusercontent.com/dheeraz101/NotekarN/refs/heads/main/notification.json. Keep notification.json a valid JSON array of notice objects. Change id whenever you want users to see a new notice.",
   "_live_feed_url": "https://raw.githubusercontent.com/dheeraz101/NotekarN/refs/heads/main/notification.json",
-  "_github_releases_url": "https://github.com/dheeraz101/Notekar/releases",
+  "_github_releases_url": "https://github.com/dheeraz101/Notekar-Android/releases",
   "_quick_rules": [
     "Keep notification.json valid JSON: no comments and no trailing commas.",
     "The root of notification.json must be a JSON array containing notice objects.",
@@ -37,6 +37,6 @@
     "changelog": "Opens the Changelog popup.",
     "note": "Opens the note popup.",
     "moment": "Logs a moment, respecting tap delay.",
-    "releases": "Opens https://github.com/dheeraz101/Notekar/releases."
+    "releases": "Opens https://github.com/dheeraz101/Notekar-Android/releases."
   }
 }
