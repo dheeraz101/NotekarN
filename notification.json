@@ -1,8 +1,8 @@
 ﻿{
     "enabled":  true,
-    "id":  "apk-release-4-0-4",
+    "id":  "apk-release-4-0-5",
     "title":  "NoteKar APK Update",
-    "body":  "NoteKar 4.0.4 is ready with newer features and improvements.",
+    "body":  "NoteKar 4.0.5 is ready with newer features and improvements.",
     "url":  "https://github.com/dheeraz101/Notekar/releases",
     "action":  "releases",
     "channels":  [
