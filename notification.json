@@ -1,4 +1,23 @@
-﻿[
+[
+  {
+    "enabled": true,
+    "id": "inapp-update-bug-alert",
+    "title": "Important Update Alert",
+    "title_es": "Alerta de actualización importante",
+    "title_hi": "महत्वपूर्ण अपडेट अलर्ट",
+    "body": "The download & install in-app update function in your current version is buggy and not working. Please update manually from official GitHub or Origin Store.",
+    "body_es": "La función de descarga e instalación de actualizaciones en la aplicación no funciona correctamente. Actualice manualmente desde GitHub o la tienda.",
+    "body_hi": "आपके वर्तमान संस्करण में इन-ऐप अपडेट डाउनलोड और इंस्टॉल करने का कार्य ठीक से काम नहीं कर रहा है। कृपया आधिकारिक गिटहब या स्टोर से मैन्युअल रूप से अपडेट करें।",
+    "url": "https://github.com/dheeraz101/Notekar-Android/releases",
+    "action": "releases",
+    "priority": "high",
+    "channels": ["stable", "beta"],
+    "platforms": ["android"],
+    "minVersion": "4.0.7",
+    "maxVersion": "5.1.1-beta",
+    "maxShows": 3,
+    "cooldownHours": 12
+  },
   {
     "enabled": true,
     "id": "apk-release-4-0-6",
