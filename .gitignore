@@ -1,0 +1,48 @@
+# ----------------------------------------------------------------------
+# NoteKar Notification & Remote Bulletins Master .gitignore
+# ----------------------------------------------------------------------
+
+# 🖥️ Operating System Files
+.DS_Store
+**/.DS_Store
+._*
+**/._*
+Thumbs.db
+**/Thumbs.db
+ehthumbs.db
+desktop.ini
+**/desktop.ini
+$RECYCLE.BIN/
+*.lnk
+*~
+
+# 💻 IDEs & Editors
+.idea/
+**/.idea/
+.vscode/
+**/.vscode/
+*.iml
+*.swp
+*.swo
+
+# 🤖 AI Assistants, Scratch & Agent Workspace Artifacts
+.artifacts/
+**/.artifacts/
+.gemini/
+**/.gemini/
+.cursor/
+**/.cursor/
+.windsurf/
+**/.windsurf/
+.cline/
+**/.cline/
+scratch/
+**/scratch/
+tmp/
+**/tmp/
+
+# 📝 Temporary, Backup & Log Files
+*.log
+*.tmp
+*.temp
+*.bak
