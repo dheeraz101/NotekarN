@@ -1,18 +1,47 @@
-{
-    "enabled":  true,
-    "id":  "apk-release-1-1-0",
-    "title":  "NoteKar APK Update",
-    "body":  "NoteKar 1.1.0 is ready with remote notices, update checks, and accessibility controls.",
-    "url":  "https://github.com/dheeraz101/Notekar-Android/releases",
-    "action":  "releases",
-    "channels":  [
-                     "stable",
-                     "beta"
-                 ],
-    "platforms":  [
-                      "pwa",
-                      "android"
-                  ],
-    "maxShows":  1,
-    "cooldownHours":  24
-}
+[
+  {
+    "enabled": true,
+    "id": "apk-release-8-1-0",
+    "title": "NoteKar 8.1.0 Released",
+    "title_es": "NoteKar 8.1.0 disponible",
+    "title_hi": "NoteKar 8.1.0 जारी किया गया",
+    "body": "NoteKar 8.1.0 is available with multi-photo import (up to 5), minimal sobriety widget, instant camera logger, and official feature bulletins.",
+    "url": "https://github.com/dheeraz101/Notekar-Android/releases",
+    "action": "releases",
+    "priority": "normal",
+    "channels": ["stable", "beta", "experiment"],
+    "platforms": ["android"],
+    "maxShows": 3,
+    "cooldownHours": 24
+  },
+  {
+    "enabled": true,
+    "id": "feature-showcase-sobriety-companion",
+    "title": "Spotlight: Minimal Sobriety Companion",
+    "title_es": "Destacado: Compañero minimalista de sobriedad",
+    "title_hi": "विशेष: न्यूनतम संयम साथी",
+    "body": "Track your clean streak with our Apple HIG-inspired companion and home widget. Tap below to configure your sobriety settings.",
+    "url": "notekar://sobriety",
+    "action": "page:sobriety",
+    "priority": "feature",
+    "channels": ["stable", "beta", "experiment"],
+    "platforms": ["android"],
+    "maxShows": 5,
+    "cooldownHours": 48
+  },
+  {
+    "enabled": true,
+    "id": "feature-showcase-instant-camera",
+    "title": "Spotlight: Instant Camera Widget",
+    "title_es": "Destacado: Widget de cámara instantánea",
+    "title_hi": "विशेष: इंस्टेंट कैमरा विजेट",
+    "body": "Log photos straight from your Android home screen with a single tap. Try adding the widget today!",
+    "url": "notekar://camera",
+    "action": "page:camera",
+    "priority": "feature",
+    "channels": ["stable", "beta", "experiment"],
+    "platforms": ["android"],
+    "maxShows": 5,
+    "cooldownHours": 48
+  }
+]
